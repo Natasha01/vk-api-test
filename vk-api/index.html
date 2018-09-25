@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <title>Page Title</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="style/style.css" />
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+<body>
+
+        <!-- 6701683
+        88f251dc132149be737a344da3803ef0c95840d67d0125e379dbed0721eac3d43597f05313121237031ed -->
+
+        <!-- https://oauth.vk.com/authorize?client_id=6701683&display=page&redirect_uri=&scope=friends,wall,groups&response_type=token&v=5.52
+
+        https://oauth.vk.com/blank.html#access_token=88f251dc132149be737a344da3803ef0c95840d67d0125e379dbed0721eac3d43597f05313121237031ed&expires_in=86400&user_id=153623715
+
+        https://api.vk.com/method/users.get?user_id=210700286&v=5.52 -->
+
+    <button onclick="loadProfile()">Профиль</button>
+    <button id="load" onclick="loadFriends()">Показать друзей</button>
+    <button onclick="loadGroups()">Показать группы</button>
+
+    <div class="profile"></div>
+    <ul></ul>
+</body>
+</html>
